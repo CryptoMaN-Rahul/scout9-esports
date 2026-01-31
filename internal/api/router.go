@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"os"
 	"strconv"
+	"strings"
 	"sync"
 	"time"
 
@@ -22,6 +23,18 @@ import (
 
 // JSON file for persisting reports (backup storage)
 const reportsBackupFile = "data/reports_backup.json"
+
+// splitAndTrim splits a string by separator and trims whitespace from each part
+func splitAndTrim(s, sep string) []string {
+	parts := strings.Split(s, sep)
+	result := make([]string, 0, len(parts))
+	for _, part := range parts {
+		if trimmed := strings.TrimSpace(part); trimmed != "" {
+			result = append(result, trimmed)
+		}
+	}
+	return result
+}
 
 // Server holds the API dependencies
 type Server struct {
@@ -108,16 +121,37 @@ func NewRouter(gridClient *grid.Client, llmService llm.Service, cacheClient *cac
 	r.Use(middleware.RealIP)
 	r.Use(middleware.Logger)
 	r.Use(middleware.Recoverer)
-	r.Use(middleware.Timeout(120 * time.Second)) // Increased for report generation
+	r.Use(middleware.Timeout(300 * time.Second)) // 5 minutes for report generation
 
-	// CORS
+	// CORS - Dynamic origins for local dev and production deployments
+	allowedOrigins := []string{
+		"http://localhost:3000",
+		"http://localhost:3001",
+		"http://127.0.0.1:3000",
+	}
+
+	// Add production origins from environment variable
+	// Set CORS_ORIGINS="https://your-app.vercel.app,https://your-app.pages.dev"
+	if envOrigins := os.Getenv("CORS_ORIGINS"); envOrigins != "" {
+		for _, origin := range splitAndTrim(envOrigins, ",") {
+			if origin != "" {
+				allowedOrigins = append(allowedOrigins, origin)
+			}
+		}
+	}
+
+	// Also support FRONTEND_URL for single origin
+	if frontendURL := os.Getenv("FRONTEND_URL"); frontendURL != "" {
+		allowedOrigins = append(allowedOrigins, frontendURL)
+	}
+
 	r.Use(cors.Handler(cors.Options{
-		AllowedOrigins:   []string{"http://localhost:3000", "http://localhost:3001"},
+		AllowedOrigins:   allowedOrigins,
 		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
-		AllowedHeaders:   []string{"Accept", "Authorization", "Content-Type", "X-CSRF-Token"},
-		ExposedHeaders:   []string{"Link"},
+		AllowedHeaders:   []string{"Accept", "Authorization", "Content-Type", "X-CSRF-Token", "X-Requested-With"},
+		ExposedHeaders:   []string{"Link", "Content-Length"},
 		AllowCredentials: true,
-		MaxAge:           300,
+		MaxAge:           86400, // 24 hours preflight cache
 	}))
 
 	// Health check
