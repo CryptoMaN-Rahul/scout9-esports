@@ -1,0 +1,1952 @@
+{
+  "8bc55807-7626-4b13-9f4a-ac4facb53e18": {
+    "id": "8bc55807-7626-4b13-9f4a-ac4facb53e18",
+    "generatedAt": "2026-01-31T22:28:52.547939+05:30",
+    "opponentTeam": {
+      "id": "47494",
+      "name": "T1",
+      "logoUrl": "https://cdn.grid.gg/assets/team-logos/1e7311945adc58ac807ffcf10b18d002"
+    },
+    "title": "lol",
+    "matchesAnalyzed": 5,
+    "executiveSummary": "T1 Analysis (5 matches analyzed)\n\nOverall Win Rate: 45%\nCurrent Form: stable (Last 5: 40%)\n\nKey Strengths:\n• Strong Early Aggression\n\nHOW TO WIN: To beat T1: Target Gumayusi's mage (0.8 KDA) with marksman picks. Focus pressure on Keria (Support).\n",
+    "howToWin": {
+      "teamId": "47494",
+      "teamName": "T1",
+      "winCondition": "To beat T1: Target Gumayusi's mage (0.8 KDA) with marksman picks. Focus pressure on Keria (Support).",
+      "weaknesses": [
+        {
+          "title": "Isolated Player: Keria",
+          "description": "Keria has no strong synergy with teammates - plays independently",
+          "evidence": "No synergy partner above 30%",
+          "impact": 50
+        }
+      ],
+      "draftRecommendations": [
+        {
+          "type": "pick",
+          "character": "Zed, LeBlanc, Akali",
+          "reason": "Pick assassins vs Gumayusi - they have 0.8 KDA on mages (Zed, LeBlanc, Akali)",
+          "priority": 1
+        },
+        {
+          "type": "pick",
+          "character": "Orianna, Syndra, Viktor",
+          "reason": "Pick control mages with CC vs Doran - they have 1.5 KDA on fighters (Orianna, Syndra, Viktor)",
+          "priority": 1
+        },
+        {
+          "type": "ban",
+          "character": "Xayah",
+          "reason": "Gumayusi's Xayah has 67% win rate",
+          "priority": 1
+        },
+        {
+          "type": "ban",
+          "character": "Xin Zhao",
+          "reason": "Oner's Xin Zhao has 67% win rate",
+          "priority": 1
+        },
+        {
+          "type": "ban",
+          "character": "Jarvan IV",
+          "reason": "Oner's Jarvan IV has 67% win rate",
+          "priority": 1
+        },
+        {
+          "type": "pick",
+          "character": "Vayne, Kog'Maw, Cassiopeia",
+          "reason": "Pick sustained damage dealers vs Keria - they have 0.5 KDA on tanks (Vayne, Kog'Maw, Cassiopeia)",
+          "priority": 1
+        },
+        {
+          "type": "ban",
+          "character": "Corki",
+          "reason": "Gumayusi's Corki has 67% win rate",
+          "priority": 1
+        }
+      ],
+      "inGameStrategies": [
+        {
+          "title": "Force teamfights - Faker can't carry",
+          "description": "Faker averages only 0.2 multikills/game - they struggle to carry teamfights",
+          "timing": "Mid-late game teamfights",
+          "evidence": "0.2 multikills/game (low for Mid role)"
+        },
+        {
+          "title": "Aggressive counter-jungling on their top side",
+          "description": "Their jungler paths to bot 102% of the time, leaving top side vulnerable",
+          "timing": "Pre-10 minutes",
+          "evidence": "Their jungler paths to bot 102% of the time, leaving top side vulnerable"
+        },
+        {
+          "title": "Deep ward their bot-side jungle entrances",
+          "description": "Track their predictable bot-side pathing for lane safety",
+          "timing": "3-4 minutes",
+          "evidence": "Track their predictable bot-side pathing for lane safety"
+        },
+        {
+          "title": "Defend mid tower aggressively around 19 minutes",
+          "description": "Opponent typically takes first tower in mid lane at this timing",
+          "timing": "~19 minutes",
+          "evidence": "Opponent typically takes first tower in mid lane at this timing"
+        }
+      ],
+      "targetPlayers": [
+        {
+          "playerName": "Keria",
+          "role": "Support",
+          "reason": "PLAYMAKER - assist ratio 6.03. Shutting down Keria disrupts team coordination. Keria struggles on supports (1.1 KDA, 43% win rate). Keria struggles on tanks (0.5 KDA, 60% win rate)",
+          "priority": 2
+        },
+        {
+          "playerName": "Oner",
+          "role": "Jungle",
+          "reason": "Solid performer, key to team success. Oner has 3.1 KDA on assassins vs. 6.5 on fighters",
+          "priority": 3
+        },
+        {
+          "playerName": "Doran",
+          "role": "Top",
+          "reason": "Average performer. Doran struggles on fighters (1.5 KDA, 54% win rate)",
+          "priority": 6
+        },
+        {
+          "playerName": "Gumayusi",
+          "role": "Bot",
+          "reason": "Gumayusi has 0.8 KDA on mages vs. 5.1 on marksmans",
+          "priority": 3
+        },
+        {
+          "playerName": "Faker",
+          "role": "Mid",
+          "reason": "Faker has 1.4 KDA on tanks vs. 3.2 on mages",
+          "priority": 3
+        }
+      ],
+      "confidenceScore": 95
+    },
+    "teamStrategy": {
+      "teamId": "47494",
+      "teamName": "T1",
+      "title": "lol",
+      "matchesAnalyzed": 5,
+      "gamesAnalyzed": 20,
+      "winRate": 0.45,
+      "strengths": [
+        {
+          "title": "Strong Early Aggression",
+          "description": "High first blood rate indicates aggressive early game",
+          "value": 60,
+          "sampleSize": 20
+        }
+      ],
+      "weaknesses": [],
+      "lolMetrics": {
+        "firstBloodRate": 0.6,
+        "firstDragonRate": 0.4,
+        "firstTowerRate": 0.6,
+        "firstTowerAvgTime": 12.988888888888889,
+        "goldDiff15": -743.35,
+        "dragonControlRate": 0,
+        "heraldControlRate": 1,
+        "baronControlRate": 0.6,
+        "elderDragonRate": 0,
+        "avgGameDuration": 32.370000000000005,
+        "earlyGameRating": 0,
+        "midGameRating": 20,
+        "lateGameRating": 0,
+        "aggressionScore": 40,
+        "winConditions": [
+          "Early aggression and snowballing"
+        ]
+      }
+    },
+    "playerProfiles": [
+      {
+        "playerId": "24427",
+        "nickname": "Gumayusi",
+        "role": "Bot",
+        "teamId": "47494",
+        "gamesPlayed": 20,
+        "kda": 4.543859649122807,
+        "avgKills": 3.65,
+        "avgDeaths": 2.85,
+        "avgAssists": 9.3,
+        "characterPool": [
+          {
+            "character": "Sivir",
+            "gamesPlayed": 4,
+            "winRate": 0.75,
+            "kda": 4.357142857142857,
+            "pickRate": 0.2
+          },
+          {
+            "character": "Corki",
+            "gamesPlayed": 3,
+            "winRate": 0.6666666666666666,
+            "kda": 2.4545454545454546,
+            "pickRate": 0.15
+          },
+          {
+            "character": "Xayah",
+            "gamesPlayed": 3,
+            "winRate": 0.6666666666666666,
+            "kda": 6.5,
+            "pickRate": 0.15
+          },
+          {
+            "character": "Ziggs",
+            "gamesPlayed": 2,
+            "winRate": 0,
+            "kda": 0.75,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Yunara",
+            "gamesPlayed": 2,
+            "winRate": 0,
+            "kda": 2.5,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Miss Fortune",
+            "gamesPlayed": 2,
+            "winRate": 1,
+            "kda": 60,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Kai'Sa",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 5,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Varus",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 2,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Jhin",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 1.5,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Aphelios",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 16,
+            "pickRate": 0.05
+          }
+        ],
+        "signaturePicks": [
+          "Sivir",
+          "Corki",
+          "Xayah"
+        ],
+        "threatLevel": 8,
+        "threatReason": "High-impact player with excellent stats",
+        "weaknesses": [],
+        "tendencies": [
+          "Signature champion: Sivir (75% win rate, 4 games)",
+          "Exceptional performer (4.54 KDA)",
+          "Strong duo with teammate",
+          "High economy (464 gold/min)"
+        ],
+        "goldPerMin": 463.7116666666667,
+        "multikillStats": {
+          "doubleKills": 15,
+          "tripleKills": 3,
+          "quadraKills": 0,
+          "pentaKills": 0,
+          "totalMultikills": 18
+        },
+        "synergyPartners": [
+          {
+            "playerId": "26121",
+            "assistCount": 61,
+            "synergyScore": 0.3279569892473118
+          },
+          {
+            "playerId": "21690",
+            "assistCount": 54,
+            "synergyScore": 0.2903225806451613
+          },
+          {
+            "playerId": "20763",
+            "assistCount": 36,
+            "synergyScore": 0.1935483870967742
+          }
+        ],
+        "assistRatio": 0.5860215053763441,
+        "abilityUsage": [
+          {
+            "abilityId": "sivir-q",
+            "abilityName": "sivir-q",
+            "usageCount": 4,
+            "usagePerGame": 0.2
+          },
+          {
+            "abilityId": "sivir-w",
+            "abilityName": "sivir-w",
+            "usageCount": 4,
+            "usagePerGame": 0.2
+          },
+          {
+            "abilityId": "sivir-e",
+            "abilityName": "sivir-e",
+            "usageCount": 4,
+            "usagePerGame": 0.2
+          },
+          {
+            "abilityId": "sivir-r",
+            "abilityName": "sivir-r",
+            "usageCount": 4,
+            "usagePerGame": 0.2
+          },
+          {
+            "abilityId": "xayah-r",
+            "abilityName": "xayah-r",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "corki-w",
+            "abilityName": "corki-w",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "corki-e",
+            "abilityName": "corki-e",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "xayah-q",
+            "abilityName": "xayah-q",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "xayah-w",
+            "abilityName": "xayah-w",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "corki-r",
+            "abilityName": "corki-r",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          }
+        ],
+        "itemBuilds": [
+          {
+            "itemName": "Farsight Alteration",
+            "itemId": "Farsight Alteration",
+            "buildCount": 20,
+            "buildRate": 1,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Infinity Edge",
+            "itemId": "Infinity Edge",
+            "buildCount": 12,
+            "buildRate": 0.6,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Doran's Blade",
+            "itemId": "Doran's Blade",
+            "buildCount": 11,
+            "buildRate": 0.55,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "B. F. Sword",
+            "itemId": "B. F. Sword",
+            "buildCount": 8,
+            "buildRate": 0.4,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Lord Dominik's Regards",
+            "itemId": "Lord Dominik's Regards",
+            "buildCount": 7,
+            "buildRate": 0.35,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Essence Reaver",
+            "itemId": "Essence Reaver",
+            "buildCount": 7,
+            "buildRate": 0.35,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Berserker's Greaves",
+            "itemId": "Berserker's Greaves",
+            "buildCount": 6,
+            "buildRate": 0.3,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Navori Flickerblade",
+            "itemId": "Navori Flickerblade",
+            "buildCount": 5,
+            "buildRate": 0.25,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Armored Advance",
+            "itemId": "Armored Advance",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Trinity Force",
+            "itemId": "Trinity Force",
+            "buildCount": 3,
+            "buildRate": 0.15,
+            "avgBuildTime": 0
+          }
+        ],
+        "objectiveFocus": {
+          "towersDestroyed": 35,
+          "towersPerGame": 1.75,
+          "dragonsSecured": 2,
+          "dragonsPerGame": 0.1,
+          "baronsSecured": 0,
+          "heraldsSecured": 1,
+          "objectiveFocused": true,
+          "objectiveFocusType": "teamfighter"
+        }
+      },
+      {
+        "playerId": "21690",
+        "nickname": "Oner",
+        "role": "Jungle",
+        "teamId": "47494",
+        "gamesPlayed": 20,
+        "kda": 5.5,
+        "avgKills": 4.5,
+        "avgDeaths": 2.8,
+        "avgAssists": 10.9,
+        "characterPool": [
+          {
+            "character": "Xin Zhao",
+            "gamesPlayed": 3,
+            "winRate": 0.6666666666666666,
+            "kda": 7.5,
+            "pickRate": 0.15
+          },
+          {
+            "character": "Pantheon",
+            "gamesPlayed": 3,
+            "winRate": 0.3333333333333333,
+            "kda": 7.777777777777778,
+            "pickRate": 0.15
+          },
+          {
+            "character": "Jarvan IV",
+            "gamesPlayed": 3,
+            "winRate": 0.6666666666666666,
+            "kda": 10.666666666666666,
+            "pickRate": 0.15
+          },
+          {
+            "character": "Wukong",
+            "gamesPlayed": 2,
+            "winRate": 1,
+            "kda": 38,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Sylas",
+            "gamesPlayed": 2,
+            "winRate": 0.5,
+            "kda": 5.571428571428571,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Trundle",
+            "gamesPlayed": 2,
+            "winRate": 0.5,
+            "kda": 2.1666666666666665,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Lillia",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 2.75,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Nocturne",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 4,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Qiyana",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 2.6,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Vi",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 0,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Skarner",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 0.6,
+            "pickRate": 0.05
+          }
+        ],
+        "signaturePicks": [
+          "Xin Zhao",
+          "Pantheon",
+          "Jarvan IV"
+        ],
+        "threatLevel": 7,
+        "threatReason": "Solid performer, key to team success",
+        "weaknesses": [
+          {
+            "title": "Weak on Pantheon",
+            "description": "Low win rate despite frequent play",
+            "value": 33.33333333333333,
+            "sampleSize": 3
+          }
+        ],
+        "tendencies": [
+          "Signature champion: Xin Zhao (67% win rate, 3 games)",
+          "Exceptional performer (5.50 KDA)",
+          "Penta kill threat (1 pentas)",
+          "Dragon focused (1.8 dragons/game)",
+          "Strong duo with teammate"
+        ],
+        "goldPerMin": 392.27000000000004,
+        "multikillStats": {
+          "doubleKills": 10,
+          "tripleKills": 2,
+          "quadraKills": 1,
+          "pentaKills": 1,
+          "totalMultikills": 14
+        },
+        "synergyPartners": [
+          {
+            "playerId": "26121",
+            "assistCount": 66,
+            "synergyScore": 0.30275229357798167
+          },
+          {
+            "playerId": "24427",
+            "assistCount": 53,
+            "synergyScore": 0.24311926605504589
+          },
+          {
+            "playerId": "20763",
+            "assistCount": 52,
+            "synergyScore": 0.23853211009174313
+          }
+        ],
+        "assistRatio": 0.5412844036697247,
+        "abilityUsage": [
+          {
+            "abilityId": "pantheon-e",
+            "abilityName": "pantheon-e",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "jarvan-i-v-r",
+            "abilityName": "jarvan-i-v-r",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "jarvan-i-v-q",
+            "abilityName": "jarvan-i-v-q",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "pantheon-q",
+            "abilityName": "pantheon-q",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "xin-zhao-r",
+            "abilityName": "xin-zhao-r",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "pantheon-w",
+            "abilityName": "pantheon-w",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "xin-zhao-q",
+            "abilityName": "xin-zhao-q",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "xin-zhao-w",
+            "abilityName": "xin-zhao-w",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "xin-zhao-e",
+            "abilityName": "xin-zhao-e",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "jarvan-i-v-w",
+            "abilityName": "jarvan-i-v-w",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          }
+        ],
+        "itemBuilds": [
+          {
+            "itemName": "Oracle Lens",
+            "itemId": "Oracle Lens",
+            "buildCount": 20,
+            "buildRate": 1,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Sundered Sky",
+            "itemId": "Sundered Sky",
+            "buildCount": 14,
+            "buildRate": 0.7,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Mercury's Treads",
+            "itemId": "Mercury's Treads",
+            "buildCount": 12,
+            "buildRate": 0.6,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Black Cleaver",
+            "itemId": "Black Cleaver",
+            "buildCount": 11,
+            "buildRate": 0.55,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Chainlaced Crushers",
+            "itemId": "Chainlaced Crushers",
+            "buildCount": 6,
+            "buildRate": 0.3,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Control Ward",
+            "itemId": "Control Ward",
+            "buildCount": 5,
+            "buildRate": 0.25,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Steel Sigil",
+            "itemId": "Steel Sigil",
+            "buildCount": 5,
+            "buildRate": 0.25,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "B. F. Sword",
+            "itemId": "B. F. Sword",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Guardian Angel",
+            "itemId": "Guardian Angel",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Maw of Malmortius",
+            "itemId": "Maw of Malmortius",
+            "buildCount": 3,
+            "buildRate": 0.15,
+            "avgBuildTime": 0
+          }
+        ],
+        "objectiveFocus": {
+          "towersDestroyed": 24,
+          "towersPerGame": 1.2,
+          "dragonsSecured": 35,
+          "dragonsPerGame": 1.75,
+          "baronsSecured": 12,
+          "heraldsSecured": 12,
+          "objectiveFocused": true,
+          "objectiveFocusType": "objective-focused"
+        }
+      },
+      {
+        "playerId": "20763",
+        "nickname": "Faker",
+        "role": "Mid",
+        "teamId": "47494",
+        "gamesPlayed": 20,
+        "kda": 3.1020408163265305,
+        "avgKills": 2.3,
+        "avgDeaths": 2.45,
+        "avgAssists": 5.3,
+        "characterPool": [
+          {
+            "character": "Ryze",
+            "gamesPlayed": 4,
+            "winRate": 0.5,
+            "kda": 4.833333333333333,
+            "pickRate": 0.2
+          },
+          {
+            "character": "Orianna",
+            "gamesPlayed": 3,
+            "winRate": 0.6666666666666666,
+            "kda": 10,
+            "pickRate": 0.15
+          },
+          {
+            "character": "Taliyah",
+            "gamesPlayed": 3,
+            "winRate": 0.6666666666666666,
+            "kda": 3.8333333333333335,
+            "pickRate": 0.15
+          },
+          {
+            "character": "Galio",
+            "gamesPlayed": 2,
+            "winRate": 0,
+            "kda": 1.4285714285714286,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Viktor",
+            "gamesPlayed": 2,
+            "winRate": 0.5,
+            "kda": 7,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Annie",
+            "gamesPlayed": 2,
+            "winRate": 0.5,
+            "kda": 0.2222222222222222,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Akali",
+            "gamesPlayed": 1,
+            "winRate": 1,
+            "kda": 20,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Cassiopeia",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 0.4,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Twisted Fate",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 0,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Yone",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 1,
+            "pickRate": 0.05
+          }
+        ],
+        "signaturePicks": [
+          "Ryze",
+          "Orianna",
+          "Taliyah"
+        ],
+        "threatLevel": 6,
+        "threatReason": "Solid performer, key to team success",
+        "weaknesses": [],
+        "tendencies": [
+          "Signature champion: Ryze (50% win rate, 4 games)",
+          "Strong performer (3.10 KDA)",
+          "Strong duo with teammate"
+        ],
+        "goldPerMin": 395.0683333333333,
+        "multikillStats": {
+          "doubleKills": 4,
+          "tripleKills": 0,
+          "quadraKills": 0,
+          "pentaKills": 0,
+          "totalMultikills": 4
+        },
+        "synergyPartners": [
+          {
+            "playerId": "21690",
+            "assistCount": 33,
+            "synergyScore": 0.3113207547169811
+          },
+          {
+            "playerId": "26121",
+            "assistCount": 32,
+            "synergyScore": 0.3018867924528302
+          },
+          {
+            "playerId": "24427",
+            "assistCount": 27,
+            "synergyScore": 0.25471698113207547
+          }
+        ],
+        "assistRatio": 1.0660377358490567,
+        "abilityUsage": [
+          {
+            "abilityId": "ryze-r",
+            "abilityName": "ryze-r",
+            "usageCount": 4,
+            "usagePerGame": 0.2
+          },
+          {
+            "abilityId": "ryze-w",
+            "abilityName": "ryze-w",
+            "usageCount": 4,
+            "usagePerGame": 0.2
+          },
+          {
+            "abilityId": "ryze-e",
+            "abilityName": "ryze-e",
+            "usageCount": 4,
+            "usagePerGame": 0.2
+          },
+          {
+            "abilityId": "ryze-q",
+            "abilityName": "ryze-q",
+            "usageCount": 4,
+            "usagePerGame": 0.2
+          },
+          {
+            "abilityId": "orianna-e",
+            "abilityName": "orianna-e",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "taliyah-r",
+            "abilityName": "taliyah-r",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "orianna-r",
+            "abilityName": "orianna-r",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "taliyah-e",
+            "abilityName": "taliyah-e",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "orianna-w",
+            "abilityName": "orianna-w",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "orianna-q",
+            "abilityName": "orianna-q",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          }
+        ],
+        "itemBuilds": [
+          {
+            "itemName": "Farsight Alteration",
+            "itemId": "Farsight Alteration",
+            "buildCount": 14,
+            "buildRate": 0.7,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Seraph's Embrace",
+            "itemId": "Seraph's Embrace",
+            "buildCount": 11,
+            "buildRate": 0.55,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Rod of Ages",
+            "itemId": "Rod of Ages",
+            "buildCount": 10,
+            "buildRate": 0.5,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Dark Seal",
+            "itemId": "Dark Seal",
+            "buildCount": 8,
+            "buildRate": 0.4,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Zhonya's Hourglass",
+            "itemId": "Zhonya's Hourglass",
+            "buildCount": 7,
+            "buildRate": 0.35,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Ionian Boots of Lucidity",
+            "itemId": "Ionian Boots of Lucidity",
+            "buildCount": 7,
+            "buildRate": 0.35,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Cryptbloom",
+            "itemId": "Cryptbloom",
+            "buildCount": 7,
+            "buildRate": 0.35,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Oracle Lens",
+            "itemId": "Oracle Lens",
+            "buildCount": 6,
+            "buildRate": 0.3,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Doran's Ring",
+            "itemId": "Doran's Ring",
+            "buildCount": 5,
+            "buildRate": 0.25,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Needlessly Large Rod",
+            "itemId": "Needlessly Large Rod",
+            "buildCount": 5,
+            "buildRate": 0.25,
+            "avgBuildTime": 0
+          }
+        ],
+        "objectiveFocus": {
+          "towersDestroyed": 30,
+          "towersPerGame": 1.5,
+          "dragonsSecured": 2,
+          "dragonsPerGame": 0.1,
+          "baronsSecured": 0,
+          "heraldsSecured": 0,
+          "objectiveFocused": false,
+          "objectiveFocusType": "teamfighter"
+        }
+      },
+      {
+        "playerId": "20728",
+        "nickname": "Doran",
+        "role": "Top",
+        "teamId": "47494",
+        "gamesPlayed": 20,
+        "kda": 1.6753246753246753,
+        "avgKills": 2,
+        "avgDeaths": 3.85,
+        "avgAssists": 4.45,
+        "characterPool": [
+          {
+            "character": "Sion",
+            "gamesPlayed": 3,
+            "winRate": 0.3333333333333333,
+            "kda": 1.6923076923076923,
+            "pickRate": 0.15
+          },
+          {
+            "character": "Ambessa",
+            "gamesPlayed": 2,
+            "winRate": 0,
+            "kda": 1.5,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Rumble",
+            "gamesPlayed": 2,
+            "winRate": 0.5,
+            "kda": 3.25,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Renekton",
+            "gamesPlayed": 2,
+            "winRate": 1,
+            "kda": 1.5555555555555556,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Aatrox",
+            "gamesPlayed": 2,
+            "winRate": 0.5,
+            "kda": 4.25,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Jax",
+            "gamesPlayed": 2,
+            "winRate": 1,
+            "kda": 2,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Rek'Sai",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 0.5714285714285714,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Kennen",
+            "gamesPlayed": 1,
+            "winRate": 1,
+            "kda": 1.6666666666666667,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Gwen",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 1,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Gragas",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 3,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Yorick",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 0,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Gangplank",
+            "gamesPlayed": 1,
+            "winRate": 1,
+            "kda": 0,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Jayce",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 0.5,
+            "pickRate": 0.05
+          }
+        ],
+        "signaturePicks": [
+          "Sion",
+          "Ambessa",
+          "Rumble"
+        ],
+        "threatLevel": 4,
+        "threatReason": "Average performer",
+        "weaknesses": [
+          {
+            "title": "Weak on Sion",
+            "description": "Low win rate despite frequent play",
+            "value": 33.33333333333333,
+            "sampleSize": 3
+          }
+        ],
+        "tendencies": [
+          "Signature champion: Sion (33% win rate, 3 games)",
+          "Vulnerable player (1.68 KDA)",
+          "Strong duo with teammate"
+        ],
+        "goldPerMin": 373.85833333333335,
+        "multikillStats": {
+          "doubleKills": 6,
+          "tripleKills": 1,
+          "quadraKills": 0,
+          "pentaKills": 0,
+          "totalMultikills": 7
+        },
+        "synergyPartners": [
+          {
+            "playerId": "26121",
+            "assistCount": 28,
+            "synergyScore": 0.3146067415730337
+          },
+          {
+            "playerId": "21690",
+            "assistCount": 23,
+            "synergyScore": 0.25842696629213485
+          },
+          {
+            "playerId": "24427",
+            "assistCount": 21,
+            "synergyScore": 0.23595505617977527
+          }
+        ],
+        "assistRatio": 1.1573033707865168,
+        "abilityUsage": [
+          {
+            "abilityId": "sion-w",
+            "abilityName": "sion-w",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "sion-q",
+            "abilityName": "sion-q",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "sion-r",
+            "abilityName": "sion-r",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "sion-e",
+            "abilityName": "sion-e",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "ambessa-w",
+            "abilityName": "ambessa-w",
+            "usageCount": 2,
+            "usagePerGame": 0.1
+          },
+          {
+            "abilityId": "renekton-r",
+            "abilityName": "renekton-r",
+            "usageCount": 2,
+            "usagePerGame": 0.1
+          },
+          {
+            "abilityId": "jax-q",
+            "abilityName": "jax-q",
+            "usageCount": 2,
+            "usagePerGame": 0.1
+          },
+          {
+            "abilityId": "aatrox-r",
+            "abilityName": "aatrox-r",
+            "usageCount": 2,
+            "usagePerGame": 0.1
+          },
+          {
+            "abilityId": "aatrox-w",
+            "abilityName": "aatrox-w",
+            "usageCount": 2,
+            "usagePerGame": 0.1
+          },
+          {
+            "abilityId": "ambessa-q",
+            "abilityName": "ambessa-q",
+            "usageCount": 2,
+            "usagePerGame": 0.1
+          }
+        ],
+        "itemBuilds": [
+          {
+            "itemName": "Oracle Lens",
+            "itemId": "Oracle Lens",
+            "buildCount": 15,
+            "buildRate": 0.75,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Control Ward",
+            "itemId": "Control Ward",
+            "buildCount": 7,
+            "buildRate": 0.35,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Mercury's Treads",
+            "itemId": "Mercury's Treads",
+            "buildCount": 6,
+            "buildRate": 0.3,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Plated Steelcaps",
+            "itemId": "Plated Steelcaps",
+            "buildCount": 5,
+            "buildRate": 0.25,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Cloth Armor",
+            "itemId": "Cloth Armor",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Sterak's Gage",
+            "itemId": "Sterak's Gage",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Trinity Force",
+            "itemId": "Trinity Force",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Sundered Sky",
+            "itemId": "Sundered Sky",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Unending Despair",
+            "itemId": "Unending Despair",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Black Cleaver",
+            "itemId": "Black Cleaver",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          }
+        ],
+        "objectiveFocus": {
+          "towersDestroyed": 26,
+          "towersPerGame": 1.3,
+          "dragonsSecured": 1,
+          "dragonsPerGame": 0.05,
+          "baronsSecured": 0,
+          "heraldsSecured": 0,
+          "objectiveFocused": false,
+          "objectiveFocusType": "teamfighter"
+        }
+      },
+      {
+        "playerId": "26121",
+        "nickname": "Keria",
+        "role": "Support",
+        "teamId": "47494",
+        "gamesPlayed": 20,
+        "kda": 0.671875,
+        "avgKills": 0.6,
+        "avgDeaths": 3.2,
+        "avgAssists": 1.55,
+        "characterPool": [
+          {
+            "character": "Renata Glasc",
+            "gamesPlayed": 3,
+            "winRate": 0,
+            "kda": 0.6428571428571429,
+            "pickRate": 0.15
+          },
+          {
+            "character": "Poppy",
+            "gamesPlayed": 3,
+            "winRate": 0.3333333333333333,
+            "kda": 0,
+            "pickRate": 0.15
+          },
+          {
+            "character": "Neeko",
+            "gamesPlayed": 2,
+            "winRate": 0,
+            "kda": 0.4,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Leona",
+            "gamesPlayed": 2,
+            "winRate": 1,
+            "kda": 1.6,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Alistar",
+            "gamesPlayed": 2,
+            "winRate": 1,
+            "kda": 0,
+            "pickRate": 0.1
+          },
+          {
+            "character": "Maokai",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 0,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Thresh",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 2,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Tahm Kench",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 0,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Karma",
+            "gamesPlayed": 1,
+            "winRate": 1,
+            "kda": 0,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Lulu",
+            "gamesPlayed": 1,
+            "winRate": 1,
+            "kda": 0,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Rakan",
+            "gamesPlayed": 1,
+            "winRate": 0,
+            "kda": 0,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Rell",
+            "gamesPlayed": 1,
+            "winRate": 1,
+            "kda": 4.5,
+            "pickRate": 0.05
+          },
+          {
+            "character": "Blitzcrank",
+            "gamesPlayed": 1,
+            "winRate": 1,
+            "kda": 0,
+            "pickRate": 0.05
+          }
+        ],
+        "signaturePicks": [
+          "Renata Glasc",
+          "Poppy",
+          "Neeko"
+        ],
+        "threatLevel": 4,
+        "threatReason": "Average performer",
+        "weaknesses": [
+          {
+            "title": "Weak on Renata Glasc",
+            "description": "Low win rate despite frequent play",
+            "value": 0,
+            "sampleSize": 3
+          },
+          {
+            "title": "Weak on Poppy",
+            "description": "Low win rate despite frequent play",
+            "value": 33.33333333333333,
+            "sampleSize": 3
+          }
+        ],
+        "tendencies": [
+          "Signature champion: Renata Glasc (0% win rate, 3 games)",
+          "Vulnerable player (0.67 KDA)"
+        ],
+        "goldPerMin": 214.33333333333334,
+        "synergyPartners": [
+          {
+            "playerId": "21690",
+            "assistCount": 8,
+            "synergyScore": 0.25806451612903225
+          },
+          {
+            "playerId": "20763",
+            "assistCount": 8,
+            "synergyScore": 0.25806451612903225
+          },
+          {
+            "playerId": "24427",
+            "assistCount": 8,
+            "synergyScore": 0.25806451612903225
+          }
+        ],
+        "assistRatio": 6.032258064516129,
+        "abilityUsage": [
+          {
+            "abilityId": "renata-e",
+            "abilityName": "renata-e",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "renata-q",
+            "abilityName": "renata-q",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "poppy-w",
+            "abilityName": "poppy-w",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "renata-w",
+            "abilityName": "renata-w",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "poppy-r",
+            "abilityName": "poppy-r",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "poppy-q",
+            "abilityName": "poppy-q",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "renata-r",
+            "abilityName": "renata-r",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "poppy-e",
+            "abilityName": "poppy-e",
+            "usageCount": 3,
+            "usagePerGame": 0.15
+          },
+          {
+            "abilityId": "alistar-q",
+            "abilityName": "alistar-q",
+            "usageCount": 2,
+            "usagePerGame": 0.1
+          },
+          {
+            "abilityId": "alistar-e",
+            "abilityName": "alistar-e",
+            "usageCount": 2,
+            "usagePerGame": 0.1
+          }
+        ],
+        "itemBuilds": [
+          {
+            "itemName": "Oracle Lens",
+            "itemId": "Oracle Lens",
+            "buildCount": 20,
+            "buildRate": 1,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Redemption",
+            "itemId": "Redemption",
+            "buildCount": 18,
+            "buildRate": 0.9,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Celestial Opposition",
+            "itemId": "Celestial Opposition",
+            "buildCount": 17,
+            "buildRate": 0.85,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Kindlegem",
+            "itemId": "Kindlegem",
+            "buildCount": 13,
+            "buildRate": 0.65,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Control Ward",
+            "itemId": "Control Ward",
+            "buildCount": 11,
+            "buildRate": 0.55,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Cloth Armor",
+            "itemId": "Cloth Armor",
+            "buildCount": 5,
+            "buildRate": 0.25,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Locket of the Iron Solari",
+            "itemId": "Locket of the Iron Solari",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Swiftmarch",
+            "itemId": "Swiftmarch",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Oblivion Orb",
+            "itemId": "Oblivion Orb",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          },
+          {
+            "itemName": "Ionian Boots of Lucidity",
+            "itemId": "Ionian Boots of Lucidity",
+            "buildCount": 4,
+            "buildRate": 0.2,
+            "avgBuildTime": 0
+          }
+        ],
+        "objectiveFocus": {
+          "towersDestroyed": 6,
+          "towersPerGame": 0.3,
+          "dragonsSecured": 1,
+          "dragonsPerGame": 0.05,
+          "baronsSecured": 0,
+          "heraldsSecured": 1,
+          "objectiveFocused": false,
+          "objectiveFocusType": "teamfighter"
+        }
+      }
+    ],
+    "compositions": {
+      "teamId": "47494",
+      "title": "lol",
+      "topCompositions": [
+        {
+          "characters": [
+            "Blitzcrank",
+            "Renekton",
+            "Trundle",
+            "Viktor",
+            "Xayah"
+          ],
+          "gamesPlayed": 1,
+          "winRate": 1,
+          "frequency": 0.05,
+          "archetype": "pick"
+        },
+        {
+          "characters": [
+            "Skarner",
+            "Tahm Kench",
+            "Viktor",
+            "Yorick",
+            "Yunara"
+          ],
+          "gamesPlayed": 1,
+          "winRate": 0,
+          "frequency": 0.05,
+          "archetype": "teamfight"
+        },
+        {
+          "characters": [
+            "Rek'Sai",
+            "Renata Glasc",
+            "Sylas",
+            "Twisted Fate",
+            "Varus"
+          ],
+          "gamesPlayed": 1,
+          "winRate": 0,
+          "frequency": 0.05,
+          "archetype": "scaling"
+        },
+        {
+          "characters": [
+            "Alistar",
+            "Jarvan IV",
+            "Sion",
+            "Sivir",
+            "Taliyah"
+          ],
+          "gamesPlayed": 1,
+          "winRate": 1,
+          "frequency": 0.05,
+          "archetype": "teamfight"
+        },
+        {
+          "characters": [
+            "Kennen",
+            "Lulu",
+            "Orianna",
+            "Pantheon",
+            "Xayah"
+          ],
+          "gamesPlayed": 1,
+          "winRate": 1,
+          "frequency": 0.05,
+          "archetype": "protect-the-carry"
+        }
+      ],
+      "firstPickPriorities": [
+        {
+          "character": "Sivir",
+          "rate": 0.2,
+          "winRate": 0.75,
+          "gamesPlayed": 4
+        },
+        {
+          "character": "Ryze",
+          "rate": 0.2,
+          "winRate": 0.5,
+          "gamesPlayed": 4
+        },
+        {
+          "character": "Pantheon",
+          "rate": 0.15,
+          "winRate": 0.3333333333333333,
+          "gamesPlayed": 3
+        },
+        {
+          "character": "Xin Zhao",
+          "rate": 0.15,
+          "winRate": 0.6666666666666666,
+          "gamesPlayed": 3
+        },
+        {
+          "character": "Jarvan IV",
+          "rate": 0.15,
+          "winRate": 0.6666666666666666,
+          "gamesPlayed": 3
+        },
+        {
+          "character": "Taliyah",
+          "rate": 0.15,
+          "winRate": 0.6666666666666666,
+          "gamesPlayed": 3
+        },
+        {
+          "character": "Sion",
+          "rate": 0.15,
+          "winRate": 0.3333333333333333,
+          "gamesPlayed": 3
+        },
+        {
+          "character": "Xayah",
+          "rate": 0.15,
+          "winRate": 0.6666666666666666,
+          "gamesPlayed": 3
+        },
+        {
+          "character": "Orianna",
+          "rate": 0.15,
+          "winRate": 0.6666666666666666,
+          "gamesPlayed": 3
+        },
+        {
+          "character": "Poppy",
+          "rate": 0.15,
+          "winRate": 0.3333333333333333,
+          "gamesPlayed": 3
+        }
+      ],
+      "commonBans": [],
+      "flexPicks": [],
+      "archetypeBreakdown": {
+        "pick": 0.05,
+        "protect-the-carry": 0.05,
+        "scaling": 0.05,
+        "teamfight": 0.1
+      },
+      "playerSynergies": [
+        {
+          "playerName": "Gumayusi",
+          "character": "Sivir",
+          "gamesPlayed": 4,
+          "winRate": 0.75,
+          "kda": 4.357142857142857
+        },
+        {
+          "playerName": "Faker",
+          "character": "Ryze",
+          "gamesPlayed": 4,
+          "winRate": 0.5,
+          "kda": 4.833333333333333
+        },
+        {
+          "playerName": "Keria",
+          "character": "Poppy",
+          "gamesPlayed": 3,
+          "winRate": 0.3333333333333333,
+          "kda": 0
+        },
+        {
+          "playerName": "Faker",
+          "character": "Taliyah",
+          "gamesPlayed": 3,
+          "winRate": 0.6666666666666666,
+          "kda": 3.8333333333333335
+        },
+        {
+          "playerName": "Gumayusi",
+          "character": "Corki",
+          "gamesPlayed": 3,
+          "winRate": 0.6666666666666666,
+          "kda": 2.4545454545454546
+        },
+        {
+          "playerName": "Gumayusi",
+          "character": "Xayah",
+          "gamesPlayed": 3,
+          "winRate": 0.6666666666666666,
+          "kda": 6.5
+        },
+        {
+          "playerName": "Faker",
+          "character": "Orianna",
+          "gamesPlayed": 3,
+          "winRate": 0.6666666666666666,
+          "kda": 10
+        },
+        {
+          "playerName": "Oner",
+          "character": "Jarvan IV",
+          "gamesPlayed": 3,
+          "winRate": 0.6666666666666666,
+          "kda": 10.666666666666666
+        },
+        {
+          "playerName": "Doran",
+          "character": "Sion",
+          "gamesPlayed": 3,
+          "winRate": 0.3333333333333333,
+          "kda": 1.6923076923076923
+        },
+        {
+          "playerName": "Oner",
+          "character": "Xin Zhao",
+          "gamesPlayed": 3,
+          "winRate": 0.6666666666666666,
+          "kda": 7.5
+        },
+        {
+          "playerName": "Oner",
+          "character": "Pantheon",
+          "gamesPlayed": 3,
+          "winRate": 0.3333333333333333,
+          "kda": 7.777777777777778
+        },
+        {
+          "playerName": "Keria",
+          "character": "Renata Glasc",
+          "gamesPlayed": 3,
+          "winRate": 0,
+          "kda": 0.6428571428571429
+        },
+        {
+          "playerName": "Doran",
+          "character": "Aatrox",
+          "gamesPlayed": 2,
+          "winRate": 0.5,
+          "kda": 4.25
+        },
+        {
+          "playerName": "Doran",
+          "character": "Ambessa",
+          "gamesPlayed": 2,
+          "winRate": 0,
+          "kda": 1.5
+        },
+        {
+          "playerName": "Keria",
+          "character": "Alistar",
+          "gamesPlayed": 2,
+          "winRate": 1,
+          "kda": 0
+        },
+        {
+          "playerName": "Keria",
+          "character": "Leona",
+          "gamesPlayed": 2,
+          "winRate": 1,
+          "kda": 1.6
+        },
+        {
+          "playerName": "Keria",
+          "character": "Neeko",
+          "gamesPlayed": 2,
+          "winRate": 0,
+          "kda": 0.4
+        },
+        {
+          "playerName": "Doran",
+          "character": "Jax",
+          "gamesPlayed": 2,
+          "winRate": 1,
+          "kda": 2
+        },
+        {
+          "playerName": "Doran",
+          "character": "Rumble",
+          "gamesPlayed": 2,
+          "winRate": 0.5,
+          "kda": 3.25
+        },
+        {
+          "playerName": "Oner",
+          "character": "Wukong",
+          "gamesPlayed": 2,
+          "winRate": 1,
+          "kda": 38
+        },
+        {
+          "playerName": "Oner",
+          "character": "Trundle",
+          "gamesPlayed": 2,
+          "winRate": 0.5,
+          "kda": 2.1666666666666665
+        },
+        {
+          "playerName": "Doran",
+          "character": "Renekton",
+          "gamesPlayed": 2,
+          "winRate": 1,
+          "kda": 1.5555555555555556
+        },
+        {
+          "playerName": "Oner",
+          "character": "Sylas",
+          "gamesPlayed": 2,
+          "winRate": 0.5,
+          "kda": 5.571428571428571
+        },
+        {
+          "playerName": "Faker",
+          "character": "Viktor",
+          "gamesPlayed": 2,
+          "winRate": 0.5,
+          "kda": 7
+        },
+        {
+          "playerName": "Gumayusi",
+          "character": "Yunara",
+          "gamesPlayed": 2,
+          "winRate": 0,
+          "kda": 2.5
+        },
+        {
+          "playerName": "Faker",
+          "character": "Galio",
+          "gamesPlayed": 2,
+          "winRate": 0,
+          "kda": 1.4285714285714286
+        },
+        {
+          "playerName": "Gumayusi",
+          "character": "Ziggs",
+          "gamesPlayed": 2,
+          "winRate": 0,
+          "kda": 0.75
+        },
+        {
+          "playerName": "Faker",
+          "character": "Annie",
+          "gamesPlayed": 2,
+          "winRate": 0.5,
+          "kda": 0.2222222222222222
+        },
+        {
+          "playerName": "Gumayusi",
+          "character": "Miss Fortune",
+          "gamesPlayed": 2,
+          "winRate": 1,
+          "kda": 60
+        }
+      ]
+    },
+    "trendAnalysis": {
+      "teamId": "47494",
+      "last5WinRate": 0.4,
+      "last10WinRate": 0.5,
+      "overallWinRate": 0.45,
+      "formIndicator": "stable",
+      "formScore": -9.999999999999998,
+      "trendChanges": [],
+      "metricTrends": [
+        {
+          "metric": "Win Rate",
+          "direction": "stable",
+          "values": [
+            1,
+            0.5,
+            0.3333333333333333,
+            0.25,
+            0.4,
+            0.5,
+            0.42857142857142855,
+            0.5,
+            0.4444444444444444,
+            0.4,
+            0.36363636363636365,
+            0.3333333333333333,
+            0.38461538461538464,
+            0.42857142857142855,
+            0.4666666666666667,
+            0.4375,
+            0.47058823529411764,
+            0.5,
+            0.47368421052631576,
+            0.45
+          ]
+        }
+      ]
+    }
+  }
+}
