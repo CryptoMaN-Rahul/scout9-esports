@@ -15,8 +15,8 @@ import type {
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
 
-// Default timeout for API requests (3 minutes for report generation)
-const DEFAULT_TIMEOUT = 180000;
+// Default timeout for API requests (5 minutes for report generation)
+const DEFAULT_TIMEOUT = 300000;
 
 class ApiError extends Error {
   constructor(public status: number, message: string) {
