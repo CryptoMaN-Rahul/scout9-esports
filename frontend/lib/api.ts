@@ -13,7 +13,7 @@ import type {
   Series,
 } from '@/types';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://scout9-api.agreeableocean-9805fd33.eastus.azurecontainerapps.io';
 
 // Default timeout for API requests (5 minutes for report generation)
 const DEFAULT_TIMEOUT = 300000;
