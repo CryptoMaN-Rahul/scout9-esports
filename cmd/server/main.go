@@ -28,10 +28,16 @@ func main() {
 	if redisURL == "" {
 		redisURL = "localhost:6379"
 	}
-	cacheClient, err := cache.NewRedisCache(redisURL)
+
+	var gridCache grid.Cache
+	var cacheClient *cache.RedisCache
+	var err error
+	cacheClient, err = cache.NewRedisCache(redisURL)
 	if err != nil {
 		log.Printf("Warning: Redis connection failed: %v. Running without cache.", err)
 		cacheClient = nil
+	} else {
+		gridCache = cacheClient
 	}
 
 	// Initialize GRID API client
@@ -39,7 +45,7 @@ func main() {
 	if gridAPIKey == "" {
 		log.Fatal("GRID_API_KEY environment variable is required")
 	}
-	gridClient := grid.NewClient(gridAPIKey, cacheClient)
+	gridClient := grid.NewClient(gridAPIKey, gridCache)
 
 	// Initialize LLM service
 	llmAPIKey := os.Getenv("LLM_API_KEY")
