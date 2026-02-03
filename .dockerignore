@@ -1,0 +1,37 @@
+# Ignore frontend folder as requested
+frontend/
+
+# Build artifacts
+bin/
+scout9
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Dependencies
+vendor/
+node_modules/
+
+# Local data
+data/
+*.json
+!grid_data_capture.json
+
+# Git
+.git
+.github
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Env files
+.env
+.env.local
