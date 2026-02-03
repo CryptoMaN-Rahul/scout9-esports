@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { listReports } from '@/lib/api';
 import { 
   FileText, 
   Calendar, 
@@ -33,9 +34,7 @@ export default function ReportsPage() {
   useEffect(() => {
     async function fetchReports() {
       try {
-        const res = await fetch('http://localhost:8080/api/reports');
-        if (!res.ok) throw new Error('Failed to fetch reports');
-        const data = await res.json();
+        const data = await listReports();
         setReports(data || []);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Failed to load reports');

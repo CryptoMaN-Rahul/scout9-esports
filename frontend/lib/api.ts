@@ -1,5 +1,5 @@
 // Scout9 API Client
-// Handles all communication with the Go backend at localhost:8080
+// Handles all communication with the Go backend on Azure
 
 import type {
   Title,

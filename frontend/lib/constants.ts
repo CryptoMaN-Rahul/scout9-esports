@@ -114,7 +114,7 @@ export const PLACEHOLDER_AGENT_ICON = '/images/agent-placeholder.png';
 
 // API Configuration
 export const API_CONFIG = {
-  baseUrl: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080',
+  baseUrl: process.env.NEXT_PUBLIC_API_URL || 'https://scout9-api.agreeableocean-9805fd33.eastus.azurecontainerapps.io',
   timeout: 300000, // 5 minutes for report generation
 } as const;
 
